@@ -1,0 +1,40 @@
+<html>
+<body>
+
+ <button id="quickpick">Quick Pick</button>
+
+ <div id="pick1"></div>
+ <div id="pick2"></div>
+ <div id="pick3"></div>
+ <div id="pick4"></div>
+ <div id="pick5"></div>
+ <div id="pick6"></div>
+ <div id="pick7"></div>
+
+<script>
+var quickpick=document.getElementById('quickpick');
+var pick1=document.getElementById('pick1');
+var pick2=document.getElementById('pick2');
+var pick3=document.getElementById('pick3');
+var pick4=document.getElementById('pick4');
+var pick5=document.getElementById('pick5');
+var pick6=document.getElementById('pick6');
+var pick7=document.getElementById('pick7');
+
+quickpick.onclick=function(){
+    pick1.innerHTML=Math.floor(Math.random() * 47)+1;
+    pick2.innerHTML=Math.floor(Math.random() * 47)+1;
+    pick3.innerHTML=Math.floor(Math.random() * 47)+1;
+    pick4.innerHTML=Math.floor(Math.random() * 47)+1;
+    pick5.innerHTML=Math.floor(Math.random() * 47)+1;
+    pick6.innerHTML=Math.floor(Math.random() * 47)+1;
+    pick7.innerHTML=Math.floor(Math.random() * 47)+1;
+}
+
+
+
+
+
+</script>
+</body>
+</html>
